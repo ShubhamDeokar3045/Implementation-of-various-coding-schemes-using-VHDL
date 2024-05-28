@@ -1,2 +1,2 @@
 # Implementation-of-various-coding-schemes-using-VHDL
-I have gained a thorough understanding of and successfully implemented various coding schemes using Quartus software. This software effectively interprets and processes VHDL, which I have used in my project. This experience improved my proficiency in both the software and the language, enabling me to design and simulate digital systems effectively.
+We have gained a thorough understanding of and successfully implemented various coding schemes using Quartus software. This software effectively interprets and processes VHDL, which we have used in our project. This experience improved our proficiency in both the software and the language, enabling us to design and simulate digital systems effectively.
