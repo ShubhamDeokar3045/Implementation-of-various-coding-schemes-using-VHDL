@@ -1,2 +1,3 @@
 # Implementation-of-various-coding-schemes-using-VHDL
-We have gained a thorough understanding of and successfully implemented various coding schemes using Quartus software. This software effectively interprets and processes VHDL, which we have used in our project. This experience improved our proficiency in both the software and the language, enabling us to design and simulate digital systems effectively.
+This project centers on implementing various error-correction codes using VHDL, aimed at improving data integrity by detecting and correcting errors. Throughout the process, I gained significant expertise in VHDL and applied advanced mathematical techniques, such as matrix multiplication and polynomial division, through VHDL functions.
+
