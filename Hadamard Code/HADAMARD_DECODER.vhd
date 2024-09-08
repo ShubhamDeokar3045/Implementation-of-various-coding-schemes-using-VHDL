@@ -141,18 +141,17 @@ begin
 -- This is a proces in which G (created above) and MAT_MUL function is used to get a Hadamard matrix of size nxn
 	
 	process (G)
-	variable o : integer := n;
 	variable S1 : std_logic_vector(k-1 downto 0);
 	variable S2 : TwoDimensionalArray1(0 to 0);
 	begin
 	
-	-- As i value increases from 0 to n-1, the value of o is decreasing and the binary representaion of o is 
+	-- As i value increases from 0 to n-1, the value of i is increasing and the binary representaion of i is 
 	-- multiplied with Generator Matrix, G which gives the Hadamard codeword for i th row and thus we get a
 	-- Hadamard matrix of nxn size
 	
 	for i in 0 to n-1 loop
 			
-		S1 := std_logic_vector(to_unsigned(o, k)); -- Here, we are storing the binary reprentation of variable o 
+		S1 := std_logic_vector(to_unsigned(i, k)); -- Here, we are storing the binary reprentation of variable i 
 																-- in this vector S1 of length k
 			
 	-- Used for converting the 1-dimensional array or vector S1 to 2-dimensional matrix S2 of 1xk size
@@ -162,7 +161,6 @@ begin
 		end loop;
 	
 		H(i) <= MAT_MUL(p => 1, q => k, r => n, A => S2, B => G); 
-		o := o - 1;
 		
 	end loop;
 		
